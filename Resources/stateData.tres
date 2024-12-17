@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="StateData" load_steps=2 format=3 uid="uid://dkg2sioqy1jgd"]
+
+[ext_resource type="Script" uid="uid://b1ethgh0qdy4f" path="res://Resources/StateData.gd" id="1_ih28h"]
+
+[resource]
+script = ExtResource("1_ih28h")
+stateMachine = NodePath("..")
+character = NodePath("../../..")
+animationTree = NodePath("../../AnimationTree")
+view = NodePath("../../../../View")
+smPlaybackPath = "parameters/playback"
